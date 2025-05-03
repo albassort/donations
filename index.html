@@ -1,3 +1,112 @@
-<main>
-<h1>hello, world2</h1>
-</main>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body style="margin :0px;">
+    <main>
+      <div id="main">
+        <h1>All donations to Albassort are appreciated!</h1>
+        <table>
+          <thead>
+            <th>
+              <img src="./assets/sol.svg" alt="SOL"/>
+            </th>
+            <th>
+              <img src="./assets/xmr.svg" alt="XMR"/>
+            </th>
+            <th>
+              <img src="./assets/btc.svg" alt="BTC">
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p1 class="address">7bDNtw9moFLfVoqtpAamKZ53VLAuVoJTzWBxZ4YVe2r6</p1>
+              </td>
+              <td>
+                <p1 class="address">
+                  44KDNVNeySuNDZAHLYiqGS2qA9zYA6MUmDqEvutqSQAxYbWwDrFYRFFYCZVM3Q4jZSMuj7j9t1vDd6M3BjqFBTMe82zdF7m
+                </p1>
+              </td>
+              <td>
+                <p1 class="address">bc1q9mqtcfttspjfz5knkydja6vpa97khpy800c3k3</p1>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h1>
+          Socials
+        </h1>
+        <table>
+          <thead>
+            <th>
+              <h2>
+                Blusky
+              </h2>
+            </th>
+            <th>
+              <h2>
+                Discord
+              </h2>
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p1>
+                  @albassort
+                </p1>
+              </td>
+              <td>
+                <p1>
+                  albassort
+                </p1>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
+<style>
+  html {
+    background-color: #100020;
+  }
+  #main {
+    height: 100vh;
+    width: 100vw;
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    gap: 50px;
+    flex-direction: column;
+  }
+  .address{
+    word-break: break-all;  /* Breaks mid-word if needed */
+  }
+  img, svg{
+    height: 33%;
+
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  td {
+    width: 33%;
+  }
+</style>
