@@ -1,12 +1,16 @@
 {
   "id" : 1,
   "time" : "16-05-2025T04:49:13",
-  "title" : "This is the initial post"
+  "title" : "Posts!"
 } 
 !---
 
 # Hello, world
 
-I have made a little post / update system. My own, completely independent platform, I suppose one could say --- where I am only limited by bandwidth haha. In addition, I've made this webpage like 50x heavier by bundling sql.js, in order to have a flexible, serverless, system for people to serve posts, oops.
+Hello, all that may see this. I have added a posts feature, and moved this page to Svelte (with the help of Vite!). Additionally, I have increased the payload size of the page by something like 100x, but such is life. 
 
-I'd like to move to svelte however svelte has made developing and deploying SPA applications, without sveltekit, functionally impossible, or a complete pain in the ass. 
+The page was originally written in simply an index.html file, but I recognize that would be hard to maintain in the long term, especially as I wished to add the posts.
+
+Additionally, I have released the source, now that the source isn't easily accessible by inspect element.
+
+https://github.com/albassort/donations
