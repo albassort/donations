@@ -1,4 +1,5 @@
 <script>
+  import initSqlJs from "sql.js";
   import { onMount } from "svelte";
   import Post from "./lib/Post.svelte";
   let safari = null;
@@ -7,9 +8,8 @@
     safari = navigator.vendor && navigator.vendor.indexOf("Apple") > -1;
 
     let config = {
-      locateFile: (filename) => {
-        return "./sql.js";
-      },
+      locateFile: (file) =>
+        `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/${file}`,
     };
     const SQL = await initSqlJs(config);
     const dbFetch = await fetch("posts.db");
