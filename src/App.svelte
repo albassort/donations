@@ -76,31 +76,30 @@
       </div>
     </div>
   {/if}
-  <div id="social">
-    <h1>Socials</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>
-            <h2>Blusky</h2>
-          </th>
-          <th>
-            <h2>Discord</h2>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <p1> @albassort </p1>
-          </td>
-          <td>
-            <p1> albassort </p1>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <div></div>
+  <h1>Socials</h1>
+  <table id="socials">
+    <thead>
+      <tr>
+        <th>
+          <h2>Blusky</h2>
+        </th>
+        <th>
+          <h2>Discord</h2>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <p1> @albassort </p1>
+        </td>
+        <td>
+          <p1> albassort </p1>
+        </td>
+      </tr>
+    </tbody>
+  </table>
   <h1 style="text-align:  left;">Posts</h1>
   <div id="posts">
     {#each posts[0] as post}
@@ -162,15 +161,11 @@
   }
   table {
     border-spacing: 20px;
-  }
-  td {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #posts {
     border-top: 1px dashed coral;
     margin-bottom: 5%;
-  }
-  #social {
   }
 </style>
