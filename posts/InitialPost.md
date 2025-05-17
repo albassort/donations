@@ -5,7 +5,7 @@
 } 
 !---
 
-# Hello, world
+# Hello, World!
 
 Hello, all that may see this. I have added a posts feature, and moved this page to Svelte (with the help of Vite!). Additionally, I have increased the payload size of the page by something like 100x, but such is life. 
 
