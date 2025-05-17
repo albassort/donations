@@ -77,7 +77,7 @@
     </div>
   {/if}
   <div></div>
-  <h1>Socials</h1>
+  <h1>Contacts</h1>
   <table id="socials">
     <thead>
       <tr>
@@ -86,6 +86,9 @@
         </th>
         <th>
           <h2>Discord</h2>
+        </th>
+        <th>
+          <h2>Email</h2>
         </th>
       </tr>
     </thead>
@@ -96,6 +99,9 @@
         </td>
         <td>
           <p1> albassort </p1>
+        </td>
+        <td>
+          <p1>contact@albassort.com</p1>
         </td>
       </tr>
     </tbody>

@@ -23,6 +23,7 @@
   .body {
     margin-left: 7%;
     font-size: 0.7rem;
+    max-width: 65%;
   }
   :global(.body p) {
     font-size: 1.1rem;
