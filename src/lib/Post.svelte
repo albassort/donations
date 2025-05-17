@@ -22,12 +22,16 @@
   }
   .body {
     margin-left: 7%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     max-width: 65%;
   }
   :global(.body p) {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
+  :global(.body ul) {
+    font-size: 0.9rem;
+  }
+
   .header {
     display: flex;
     gap: 10%;
