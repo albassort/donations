@@ -172,6 +172,6 @@
     margin-bottom: 5%;
   }
   :global(*) {
-    word-break: break-all;
+    word-break: break-word;
   }
 </style>
