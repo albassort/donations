@@ -122,18 +122,15 @@
     justify-content: center;
     color: white;
     gap: 50px;
-    padding-right: 2%;
-    padding-left: 2%;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10vw;
+    margin-right: 10vw;
     min-width: 300px;
   }
   .address {
     word-break: break-all;
   }
-  img,
-  svg {
+  img {
     height: 33%;
     width: 33%;
     margin: 0px;
@@ -173,5 +170,8 @@
   #posts {
     border-top: 1px dashed coral;
     margin-bottom: 5%;
+  }
+  :global(*) {
+    word-break: break-all;
   }
 </style>
