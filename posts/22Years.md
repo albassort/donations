@@ -30,6 +30,10 @@ There is a chance, during my next project, I will maintain a large blog of ongoi
 
 If a blog is maintained, it will be rigorous, detailed, and fun to read. I hope to announce it here, should it happen. 
 
+### Poems? 
+
+In addition to a blog, I am going to most likely make a site for my poems. I would, encase of anything happening to me, data-loss, etc, be capable of distributing my poems. Since, as of yet, have no published them, putting them freely on the internet may make sense. Thus, there *may* be a poem portion of the site implemented in the near future, should I get over the fear of them being stolen from me haha.
+
 ### Thank you!
 
 Reading is hard, I appreciate you.
