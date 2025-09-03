@@ -174,4 +174,13 @@
   :global(*) {
     word-break: break-word;
   }
+  :global(a:visited){
+    color : #CBB2AA
+  }
+
+  :global(a:link){
+    color : #CBB2AA
+  }
+  
+ 
 </style>

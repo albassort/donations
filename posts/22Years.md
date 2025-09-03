@@ -17,9 +17,9 @@ I turned 22 years old, and I am unsatisfied with 2024-2025 for me. I didn't get 
     - I do, partially, regret working on this. My passion is far closer to the metal than web development. I don't think I will willingly develop a large webiste for fun, ever again.
 - AlbaBTCPay
     - I implemented BTC transaction code for QKG (officially named Teahouse Bets). This code was removed in the release version, and, I have implemented it in AlbaBTCPay. This will be a docker contained fully programmable notifier, transaction creater, invoice payer, for Lightning and BTCCore. This is mostly finished, it just requires a steadfast will, and this will be finished
-- AlbaBuild.nvim
-    - This is already finished, and can be found [here](https://github.com/albassort/AlbaBuild.nvim)
-    - 2 youtube videos were made for it, and I intend on extensive youtube documentation for QestKakeGoto as it is a very visual thing that may be difficult to host properly.
+- [AlbaBuild.nvim](https://github.com/albassort/AlbaBuild.nvim)
+    - This is already finished, and can be found by clicking above!
+    - 2 Youtube videos were made for it, and I intend on extensive youtube documentation for QestKakeGoto as it is a very visual thing that may be difficult to host properly.
 
 ### long Term: I have many interesting projects
 
